@@ -42,7 +42,7 @@ dan pada menu ini, data yang ada bisa diexport menjadi Excel maupun PDF di butto
 ![Screenshot 2025-01-11 143922](https://github.com/user-attachments/assets/82f9df56-66e4-4895-95bd-7ca1d9e7d581)
 
 Pada halaman ini adalah untuk melihan keluhan konsumen yang telah diterima sistem SIMONTIK. 
-
+Ling Jurnal : https://drive.google.com/file/d/1t0oyqlFcLqKdf_WQ1FXjVX6UbhY0PrJV
 
 # Saran Pengembangan
 Sistem ini kedepannya mempunyai fitur yang lebih lengkap dan akurat
