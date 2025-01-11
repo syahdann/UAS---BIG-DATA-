@@ -3,8 +3,9 @@
    $namapelapor = $_POST['namapelapor'];
    $masalah = $_POST['masalah'];
    $isimasalah = $_POST['isi'];
-   $data = "INSERT INTO pengaduan(id, namapelapor, masalah, isi) VALUES (NULL,'$namapelapor','$masalah','$isimasalah')";
-   $simpan = $koneksi->query($data);
+   $alamat = $_POST['alamat'];
+   $data = "INSERT INTO pengaduan(id, namapelapor, masalah, isi, alamat) VALUES (NULL,'$namapelapor','$masalah','$isimasalah','$alamat')";
+   $simpan = $conn->query($data);
    if($simpan) {
         echo "<script type='text/javascript'>
         alert('Terimakasih Sudah Melapor');

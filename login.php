@@ -6,7 +6,7 @@
 <html>
    <head>
        <link rel="icon" type="image/png" href="images/Mondalist.png">
-      <title>Login | MODALIST </title>
+      <title>Login | SIMONTIK </title>
       
       
       <script>
@@ -20,7 +20,7 @@
    <body>
       <div class="mid-class">
          <div class="art-right-w3ls">
-            <h2>Login Modalist</h2>
+            <h2>Login SIMONTIK</h2>
             <form action="proseslogin.php" method="post">
                <div class="main">
                   <div class="form-left-to-w3l">
@@ -85,7 +85,7 @@
          </div>
          <div class="art-left-w3ls">
             <h1 class="header-w3ls">
-               MODALIST (Monitoring Daya Listrik)
+               SIMONTIK (Sistem Monitoring Listrik)
             </h1>
          </div>
       </div>

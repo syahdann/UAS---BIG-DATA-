@@ -6,8 +6,8 @@
     include "koneksi.php";
     $sql = "SELECT `no`, `daya`,`arus`,`tegangan`, `tanggal` FROM `monitoring` ORDER BY `tanggal` DESC LIMIT 10";
     $sql_tabel = "SELECT `no`, `daya`,`arus`,`tegangan`, `tanggal` FROM `monitoring`";
-    $result = $koneksi->query($sql);
-    $hasil = $koneksi->query($sql_tabel);
+    $result = $conn->query($sql);
+    $hasil = $conn->query($sql_tabel);
 
     $kategori = array();
     $daya = array();
@@ -31,7 +31,7 @@
 <html>
 <head>
 <link rel="icon" type="images/png" href="images/Mondalist.png">
-<title>MODALIST | Dashboard</title>
+<title> | Dashboard</title>
 
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
  <!-- Bootstrap Core CSS -->
@@ -148,7 +148,7 @@
 							<a href="dashboard.php"><i class="lnr lnr-cog"></i>
 								<span>Alat</span></a>
 								<ul class="sub-menu-list">
-									<li><a href="grids.html">Monitoring alat</a> </li>
+									<li><a href="pengaduan.php">Keluhan Konsumen</a> </li>
 								</ul>
 						</li>
 					</ul>
@@ -171,7 +171,7 @@
 				<div class="user-panel-top">  	
 					<div class="profile_details_left">
 						<ul class="nofitications-dropdown">
-						    <h3>MODALIST</h3
+						    <h3>SIMONTIK</h3
 							<li
 							</li>
 							<li class="login_box" id="loginContainer">
@@ -271,7 +271,7 @@
 		</div>
         <!--footer section start-->
 			<footer>
-			   <p>&MODALIST 2019 | Design by <a href="/https://kelompok5tekap2.000webhostapp.com" target="_blank">KELOMPOK 5 TEK A P2.</a></p>
+			   <p>syahdan</a></p>
 			</footer>
         <!--footer section end-->
 

@@ -2,7 +2,7 @@
   session_start();
 	include("koneksi.php");
   $sql_tabel = "SELECT `no`, `daya`,`arus`,`tegangan`, `tanggal` FROM `monitoring`";
-  $hasil = $koneksi->query($sql_tabel);
+  $hasil = $conn->query($sql_tabel);
    header('Content-Disposition: attachment; filename="MODALIST_Monitoring_Report.xls"');
 	 header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
 ?>

@@ -61,8 +61,10 @@ CREATE TABLE `pengaduan` (
   `id` int(11) NOT NULL,
   `namapelapor` text COLLATE utf8_unicode_ci NOT NULL,
   `masalah` text COLLATE utf8_unicode_ci NOT NULL,
-  `isi` text COLLATE utf8_unicode_ci NOT NULL
+  `isi` text COLLATE utf8_unicode_ci NOT NULL,
+  `alamat` text COLLATE utf8_unicode_ci NOT NULL,
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
 
 --
 -- Dumping data untuk tabel `pengaduan`

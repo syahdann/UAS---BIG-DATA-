@@ -20,5 +20,5 @@
 */
 
 	$sql = "INSERT INTO `monitoring` (`daya`,`arus`, `tegangan`) VALUES ('$daya','$arus','$tegangan')";
-	$hasil = mysqli_query($koneksi,$sql);
+	$hasil = mysqli_query($conn,$sql);
 ?>

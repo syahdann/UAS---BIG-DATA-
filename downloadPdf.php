@@ -1,3 +1,4 @@
+
 <?php
 
   session_start();
@@ -127,7 +128,7 @@
 
     $sql_tabel = "SELECT `no`, `daya`,`arus`,`tegangan`, `tanggal` FROM `monitoring`";
 
-    $hasil = $koneksi->query($sql_tabel);
+    $hasil = $conn->query($sql_tabel);
 
     ?>
 

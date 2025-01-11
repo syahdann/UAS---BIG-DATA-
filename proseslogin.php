@@ -5,7 +5,7 @@
    $username = $_POST['username'];
    $pass = $_POST['password'];   
    $sql = "SELECT * FROM user WHERE username = '$username'";
-   $query = $koneksi->query($sql);
+   $query = $conn->query($sql);
    $hasil = $query->fetch_assoc();
    if($query->num_rows == 0) {
      echo "<script type='text/javascript'>

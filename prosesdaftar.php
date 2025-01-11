@@ -3,7 +3,7 @@
    $username = $_POST['username'];
    $pass = $_POST['password'];
    $sql = "SELECT * FROM user WHERE username = '$username'";
-   $query = $koneksi->query($sql);
+   $query = $conn->query($sql);
    if($query->num_rows != 0) {
      echo "
         <script type='text/javascript'>
@@ -18,7 +18,7 @@ history.back(self);
 
      } else {
        $data = "INSERT INTO user VALUES (NULL, '$username', '$pass')";
-       $simpan = $koneksi->query($data);
+       $simpan = $conn->query($data);
        if($simpan) {
          echo "
         <script type='text/javascript'>
